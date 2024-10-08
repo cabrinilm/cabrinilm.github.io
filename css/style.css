@@ -10,8 +10,9 @@ body {
 }
 
 header {
+    background: linear-gradient(to right, #0000ff, #87cefa);
     background-color: #f8f9fa; /* Cor de fundo do cabeçalho */
-    padding: 20px; /* Espaçamento interno */
+    padding: 10px; /* Espaçamento interno */
     position: fixed; /* Fixa o cabeçalho na parte superior */
     top: 0; /* Fixa na parte superior da página */
     width: 100%; /* Largura total do cabeçalho */
@@ -21,7 +22,6 @@ header {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra */
     z-index: 1000; /* Mantém o cabeçalho acima de outros conteúdos */
 }
- 
 
 
 
@@ -42,6 +42,19 @@ nav h5 {
 
 main {
     padding-top: 10%;
+    background-image: url('../img/fundo2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    text-align: center;
+    font-family: 'Papyrus';
+    font-size: 200%;
+    font-weight: bolder;
 }
 
 .first {
